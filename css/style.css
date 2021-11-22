@@ -524,7 +524,7 @@ input[type="submit"]{
     }
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 495px) {
     #experience{
         height: 1850px;
     }
