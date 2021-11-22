@@ -524,6 +524,12 @@ input[type="submit"]{
     }
 }
 
+@media screen and (max-width: 505px) {
+    #experience{
+        height: 1850px;
+    }
+}
+
 /* Mobile L*/
 @media screen and (max-width: 425px) {
     .container{
