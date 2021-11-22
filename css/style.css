@@ -49,6 +49,7 @@ body{
 
 .menu{
     list-style: none;
+    text-decoration: none;
     margin: auto;
     float: right;
     transform: translate(-5%,20%);
