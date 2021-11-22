@@ -50,6 +50,9 @@
                     <a class="anchor" href="#contact">CONTACT</a>
                 </li>
             </ul>
+            <div id="menu-icon">
+                <img src="./images/icons/menu.png">
+            </div>
         </header>
         <!--------------- Home --------------->
         <section id="home">
@@ -61,15 +64,21 @@
             <p class="category">SERVICES</p>
             <div class="service">
                 <p>Web Development</p>
-                <img class="picture" src="./images/code.png">
+                <a href="https://github.com/rvaz-dev">
+                    <img class="picture" src="./images/code.png">
+                </a>
             </div>
             <div class="service">
                 <p>Data Analytcs</p>
-                <img class="picture" src="./images/ds.png">
+                <a href="https://github.com/rapha-ds">
+                    <img class="picture" src="./images/ds.png">
+                </a>
             </div>
             <div class="service">
                 <p>3D Modeling</p>
-                <img class="picture" src="./images/3d.png">
+                <a href="https://rapha3d.art/">
+                    <img class="picture" src="./images/3d.png">
+                </a>
             </div>
         </section>
         <hr class="separator">
@@ -86,6 +95,14 @@
                 <div class="skill">
                     <img class="skillIcon" src="./images/icons/css.png">
                     <p class="skillDescription"> CSS</p>
+                </div>
+                <div class="skill">
+                    <img class="skillIcon" src="./images/icons/javascript.png">
+                    <p class="skillDescription"> JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img class="skillIcon" src="./images/icons/jquery.png">
+                    <p class="skillDescription"> jQuery</p>
                 </div>
                 <div class="skill">
                     <img class="skillIcon" src="./images/icons/photoshop.png">
@@ -315,6 +332,17 @@
             <p class="footerNote">All rights reserved.</p>
         </footer>
     </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $("#menu-icon").click(()=>{
+            $(".menu").show(1000);
+        });
+        $("#menu-icon").mouseleave(()=>{
+            $(".menu").hide(1000);
+        });
+    </script>
 
 </body>
 
